@@ -3,7 +3,7 @@ interface AppContainerProps {
 }
 
 const AppContainer = ({ children }: AppContainerProps) => {
-  return <div className='w-full bg-slate-500'>{children}</div>
+  return <div className='w-full bg-app-bg bg-cover'>{children}</div>
 }
 
 export default AppContainer

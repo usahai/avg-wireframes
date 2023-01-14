@@ -24,6 +24,9 @@ module.exports = {
         queueYellow: '#ffd600',
         queueBlue: '#00b9e1',
       },
+      backgroundImage: {
+        'app-bg': "url('/tech-bg.jpg')",
+      },
     },
   },
   plugins: [
