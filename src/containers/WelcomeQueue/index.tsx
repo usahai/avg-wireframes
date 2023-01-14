@@ -8,7 +8,7 @@ interface WelcomeQueueProps {
 
 const WelcomeQueue = ({ children, className }: WelcomeQueueProps) => {
   return (
-    <div id='welcome-queue-container' className='container mx-auto'>
+    <div id='welcome-queue-container' className='mx-auto p-16'>
       <div id='flex-container'>
         <div
           id='top-container'

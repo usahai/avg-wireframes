@@ -5,7 +5,9 @@ import AppContainer from 'containers/AppContainer'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <AppContainer>
-      <Component {...pageProps} />
+      <div id='app' className='flex h-full min-h-[calc(100vh-4rem)]'>
+        <Component {...pageProps} />
+      </div>
     </AppContainer>
   )
 }
