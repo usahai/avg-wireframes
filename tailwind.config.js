@@ -27,6 +27,9 @@ module.exports = {
       backgroundImage: {
         'app-bg': "url('/tech-bg.jpg')",
       },
+      fontFamily: {
+        pixelar: ['Pixelar', 'sans-serif'],
+      },
     },
   },
   plugins: [
