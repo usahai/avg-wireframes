@@ -1,4 +1,4 @@
-import { IconCredits, IconFire, IconGrass, IconIce } from 'containers/IconImage'
+import { IconCredits, IconFire, IconGrass, IconIce } from 'components/IconImage'
 import { Balance } from 'definitions/balance'
 import { formatNumber } from 'utils/number'
 import clsx from 'clsx'

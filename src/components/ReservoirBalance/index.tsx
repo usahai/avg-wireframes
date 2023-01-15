@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import { formatNumber } from 'utils/number'
-import { IconCredits, IconFire, IconGrass, IconIce } from 'containers/IconImage'
+import { IconCredits, IconFire, IconGrass, IconIce } from 'components/IconImage'
 import { Balance } from 'definitions/balance'
 
 interface ReservoirsBalanceProps {
