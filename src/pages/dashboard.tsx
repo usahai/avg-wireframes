@@ -1,7 +1,16 @@
+import { useModalsContext } from 'contexts/ModalsContext'
+
 const Dashboard = () => {
+  const { setIsShowRealmModal } = useModalsContext()
+
   return (
-    <div className='m-auto flex'>
-      <h1 className='flex font-bold text-white'>Hello Dashboard!</h1>
+    <div
+      id='dashboard-container'
+      className='m-auto flex flex-col justify-center'
+    >
+      <button onClick={(event) => setIsShowRealmModal(true)}>
+        <h1 className='text-white'>Show Realm Details</h1>
+      </button>
     </div>
   )
 }

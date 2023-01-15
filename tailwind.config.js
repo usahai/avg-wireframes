@@ -9,6 +9,19 @@ module.exports = {
     './src/containers/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontSize: {
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.75rem',
+      '4xl': '2rem',
+      '5xl': '2.5rem',
+      '6xl': '3rem',
+      '7xl': '4rem',
+    },
     clipPath: {
       topLine:
         'polygon(0% 46%, 0% 54%, 30.5% 54%, 35.5% 8%, 64.5% 8%, 69.5% 54%, 100% 54%, 100% 46%, 70% 46%, 65% 0%, 35% 0%, 30% 46% )',
@@ -23,9 +36,13 @@ module.exports = {
       colors: {
         queueYellow: '#ffd600',
         queueBlue: '#00b9e1',
+        appPurple: '#c82ac2',
       },
       backgroundImage: {
         'app-bg': "url('/tech-bg.jpg')",
+      },
+      fontFamily: {
+        pixelar: ['Pixelar', 'sans-serif'],
       },
     },
   },
@@ -33,9 +50,9 @@ module.exports = {
     tailwindClipPath,
     base(({ addBase, theme }) => {
       addBase({
-        h1: { fontSize: theme('fontSize.2xl') },
-        h2: { fontSize: theme('fontSize.xl') },
-        h3: { fontSize: theme('fontSize.lg') },
+        h1: { fontSize: theme('fontSize.5xl') },
+        h2: { fontSize: theme('fontSize.3xl') },
+        h3: { fontSize: theme('fontSize.xl') },
       })
     }),
   ],

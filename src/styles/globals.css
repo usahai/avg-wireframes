@@ -2,21 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .line-top {
-    clip-path: polygon(
-      0% 46%,
-      0% 54%,
-      30.5% 54%,
-      35.5% 8%,
-      64.5% 8%,
-      69.5% 54%,
-      100% 54%,
-      100% 46%,
-      70% 46%,
-      65% 0%,
-      35% 0%,
-      30% 46%
-    );
+@layer base {
+  @font-face {
+    font-family: 'Pixelar';
+    src: url('/fonts/Pixelar-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
   }
 }
